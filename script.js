@@ -1,4 +1,4 @@
-bton.addEventListener('click', function(e){
+document.getElementById("formulario").addEventListener('click', function(e){
     e.preventDefault()
     const name = document.getElementById("name").value;
     const lastname = document.getElementById("lastname").value;
